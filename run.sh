@@ -1,4 +1,4 @@
 #!/bin/sh
 
-clang -Wall -Wextra -o twice twice.c
-./twice
+clang -Wall -Wextra -o gates gates.c
+./gates
