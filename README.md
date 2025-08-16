@@ -21,3 +21,8 @@ Find correct values for weights (w) and bias (b) using smart guesses through gra
 - Uses finite differences to approximate gradients for simplification
 
 $$f'(x) = \frac{f(x + h) - f(x)}{h}$$
+
+- Why bias?
+  - Models `y= mx + c` where `c` is the bias
+  - Without bias, forced to go through origin (0,0)
+  - Allows model to fit data better by shifting the line up/down
