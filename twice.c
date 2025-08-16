@@ -18,8 +18,6 @@ float train[][2] = {
 
 float rand_float(void);
 float mean_squared_error(float, float);
-float calculate_gradient_w(float, float, float (*)(float, float));
-float calculate_gradient_b(float, float, float (*)(float, float));
 
 int main() {
     srand(SEED);

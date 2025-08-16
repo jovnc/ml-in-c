@@ -1,4 +1,4 @@
 #!/bin/sh
 
-clang -Wall -Wextra -o main main.c
-./main
+clang -Wall -Wextra -o twice twice.c
+./twice
